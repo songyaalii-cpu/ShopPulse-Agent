@@ -1,0 +1,1 @@
+"""ShopPulse HTTP API."""

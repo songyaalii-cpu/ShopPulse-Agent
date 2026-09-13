@@ -1,0 +1,3 @@
+"use client";
+import Link from "next/link";import {usePathname} from "next/navigation";
+export default function Nav(){const path=usePathname();const active=(href:string)=>href==="/"?(path==="/"||path.startsWith("/sessions/")&&!path.startsWith("/sessions/new")):path.startsWith(href);return <nav className="top-nav"><Link className="brand" href="/"><span className="brand-mark">S</span><span>ShopPulse</span></Link><div className="nav-links"><Link className={active("/")?"active":""} href="/">分析会话</Link><Link className={active("/history")?"active":""} href="/history">运行历史</Link></div><Link className="nav-cta" href="/sessions/new"><span>＋</span> 新建分析</Link></nav>}

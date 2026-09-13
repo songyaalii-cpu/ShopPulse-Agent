@@ -1,0 +1,95 @@
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-shoppulse}
+      POSTGRES_USER: ${POSTGRES_USER:-shoppulse}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-shoppulse_local_only}
+    ports: ["${POSTGRES_PORT:-5432}:5432"]
+    volumes: ["shoppulse_postgres_data:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+    restart: unless-stopped
+    logging: {driver: json-file, options: {max-size: "10m", max-file: "3"}}
+
+  redis:
+    image: redis:7-alpine
+    command: ["redis-server", "--appendonly", "yes"]
+    ports: ["${REDIS_PORT:-6379}:6379"]
+    volumes: ["shoppulse_redis_data:/data"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+    restart: unless-stopped
+    logging: {driver: json-file, options: {max-size: "10m", max-file: "3"}}
+
+  api:
+    build: {context: ., dockerfile: Dockerfile}
+    environment: &app-env
+      APP_ENV: ${APP_ENV:-development}
+      DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-shoppulse}:${POSTGRES_PASSWORD:-shoppulse_local_only}@postgres:5432/${POSTGRES_DB:-shoppulse}
+      REDIS_URL: redis://redis:6379/0
+      LLM_ENABLED: ${LLM_ENABLED:-false}
+      WORKSHOP_MODEL: ${WORKSHOP_MODEL:-}
+      # Use project-specific names on the host to avoid an existing global
+      # OPENAI_API_KEY overriding the provider selected for ShopPulse.
+      OPENAI_API_KEY: ${DEEPSEEK_API_KEY:-}
+      OPENAI_BASE_URL: ${DEEPSEEK_BASE_URL:-https://api.deepseek.com}
+      QWEN_API_KEY: ${QWEN_API_KEY:-}
+      QWEN_BASE_URL: ${QWEN_BASE_URL:-}
+      QWEN_EMBEDDING_NAME: ${QWEN_EMBEDDING_NAME:-text-embedding-v4}
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:3000}
+      FRONTEND_ORIGIN: ${FRONTEND_ORIGIN:-http://localhost:3000}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+      DEMO_USER_ID: ${DEMO_USER_ID:-local-demo}
+    command: ["sh", "-c", "shoppulse-wait-db --timeout 90 && alembic upgrade head && uvicorn shoppulse.api.app:app --host 0.0.0.0 --port 8000"]
+    ports: ["${API_PORT:-8000}:8000"]
+    depends_on:
+      postgres: {condition: service_healthy}
+      redis: {condition: service_healthy}
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health/ready')"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 20s
+    restart: unless-stopped
+    logging: {driver: json-file, options: {max-size: "10m", max-file: "3"}}
+
+  worker:
+    build: {context: ., dockerfile: Dockerfile}
+    environment: *app-env
+    command: ["sh", "-c", "shoppulse-wait-db --timeout 90 && arq shoppulse.worker.main.WorkerSettings"]
+    depends_on:
+      postgres: {condition: service_healthy}
+      redis: {condition: service_healthy}
+      api: {condition: service_healthy}
+    restart: unless-stopped
+    logging: {driver: json-file, options: {max-size: "10m", max-file: "3"}}
+
+  frontend:
+    build:
+      context: frontend
+      dockerfile: Dockerfile
+      args: {NEXT_PUBLIC_API_URL: "${NEXT_PUBLIC_API_URL:-http://localhost:8000}"}
+    ports: ["${FRONTEND_PORT:-3000}:3000"]
+    environment:
+      INTERNAL_API_URL: http://api:8000
+      HOSTNAME: 0.0.0.0
+    depends_on: {api: {condition: service_healthy}}
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://127.0.0.1:3000"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+    restart: unless-stopped
+    logging: {driver: json-file, options: {max-size: "10m", max-file: "3"}}
+
+volumes:
+  shoppulse_postgres_data:
+  shoppulse_redis_data:

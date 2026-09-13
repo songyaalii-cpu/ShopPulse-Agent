@@ -1,0 +1,2268 @@
+[
+  {
+    "id": "p3-001",
+    "question": "最近 12 周 GMV、订单量和客单价趋势如何？",
+    "expected_intent": "trend",
+    "expected_tools": [
+      "metric_trend"
+    ],
+    "expected_metrics": [
+      "gmv",
+      "order_count",
+      "average_order_value"
+    ],
+    "expected_dimensions": [
+      "period"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:metric_trend",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "trend",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-002",
+    "question": "最近 12 周 GMV、订单量和客单价趋势如何？（评测变体 2）",
+    "expected_intent": "trend",
+    "expected_tools": [
+      "metric_trend"
+    ],
+    "expected_metrics": [
+      "gmv",
+      "order_count",
+      "average_order_value"
+    ],
+    "expected_dimensions": [
+      "period"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:metric_trend",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "trend",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-003",
+    "question": "最近 12 周 GMV、订单量和客单价趋势如何？（评测变体 3）",
+    "expected_intent": "trend",
+    "expected_tools": [
+      "metric_trend"
+    ],
+    "expected_metrics": [
+      "gmv",
+      "order_count",
+      "average_order_value"
+    ],
+    "expected_dimensions": [
+      "period"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:metric_trend",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "trend",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-004",
+    "question": "最近 12 周 GMV、订单量和客单价趋势如何？（评测变体 4）",
+    "expected_intent": "trend",
+    "expected_tools": [
+      "metric_trend"
+    ],
+    "expected_metrics": [
+      "gmv",
+      "order_count",
+      "average_order_value"
+    ],
+    "expected_dimensions": [
+      "period"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:metric_trend",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "trend",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-005",
+    "question": "最近 12 周 GMV、订单量和客单价趋势如何？（评测变体 5）",
+    "expected_intent": "trend",
+    "expected_tools": [
+      "metric_trend"
+    ],
+    "expected_metrics": [
+      "gmv",
+      "order_count",
+      "average_order_value"
+    ],
+    "expected_dimensions": [
+      "period"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:metric_trend",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "trend",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-006",
+    "question": "最近 12 周 GMV、订单量和客单价趋势如何？（评测变体 6）",
+    "expected_intent": "trend",
+    "expected_tools": [
+      "metric_trend"
+    ],
+    "expected_metrics": [
+      "gmv",
+      "order_count",
+      "average_order_value"
+    ],
+    "expected_dimensions": [
+      "period"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:metric_trend",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "trend",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-007",
+    "question": "最近 12 周 GMV、订单量和客单价趋势如何？（评测变体 7）",
+    "expected_intent": "trend",
+    "expected_tools": [
+      "metric_trend"
+    ],
+    "expected_metrics": [
+      "gmv",
+      "order_count",
+      "average_order_value"
+    ],
+    "expected_dimensions": [
+      "period"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:metric_trend",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "trend",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-008",
+    "question": "最近 12 周 GMV、订单量和客单价趋势如何？（评测变体 8）",
+    "expected_intent": "trend",
+    "expected_tools": [
+      "metric_trend"
+    ],
+    "expected_metrics": [
+      "gmv",
+      "order_count",
+      "average_order_value"
+    ],
+    "expected_dimensions": [
+      "period"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:metric_trend",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "trend",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-009",
+    "question": "最近 12 周 GMV、订单量和客单价趋势如何？（评测变体 9）",
+    "expected_intent": "trend",
+    "expected_tools": [
+      "metric_trend"
+    ],
+    "expected_metrics": [
+      "gmv",
+      "order_count",
+      "average_order_value"
+    ],
+    "expected_dimensions": [
+      "period"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:metric_trend",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "trend",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-010",
+    "question": "最近 12 周 GMV、订单量和客单价趋势如何？（评测变体 10）",
+    "expected_intent": "trend",
+    "expected_tools": [
+      "metric_trend"
+    ],
+    "expected_metrics": [
+      "gmv",
+      "order_count",
+      "average_order_value"
+    ],
+    "expected_dimensions": [
+      "period"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:metric_trend",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "trend",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-011",
+    "question": "最近 12 周 GMV、订单量和客单价趋势如何？（评测变体 11）",
+    "expected_intent": "trend",
+    "expected_tools": [
+      "metric_trend"
+    ],
+    "expected_metrics": [
+      "gmv",
+      "order_count",
+      "average_order_value"
+    ],
+    "expected_dimensions": [
+      "period"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:metric_trend",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "trend",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-012",
+    "question": "最近 12 周 GMV、订单量和客单价趋势如何？（评测变体 12）",
+    "expected_intent": "trend",
+    "expected_tools": [
+      "metric_trend"
+    ],
+    "expected_metrics": [
+      "gmv",
+      "order_count",
+      "average_order_value"
+    ],
+    "expected_dimensions": [
+      "period"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:metric_trend",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "trend",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-013",
+    "question": "请给出 RFM 客户分群及净销售贡献。",
+    "expected_intent": "rfm",
+    "expected_tools": [
+      "rfm_segments"
+    ],
+    "expected_metrics": [
+      "customers",
+      "net_sales"
+    ],
+    "expected_dimensions": [
+      "segment"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:rfm_segments",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "rfm",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-014",
+    "question": "请给出 RFM 客户分群及净销售贡献。（评测变体 2）",
+    "expected_intent": "rfm",
+    "expected_tools": [
+      "rfm_segments"
+    ],
+    "expected_metrics": [
+      "customers",
+      "net_sales"
+    ],
+    "expected_dimensions": [
+      "segment"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:rfm_segments",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "rfm",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-015",
+    "question": "请给出 RFM 客户分群及净销售贡献。（评测变体 3）",
+    "expected_intent": "rfm",
+    "expected_tools": [
+      "rfm_segments"
+    ],
+    "expected_metrics": [
+      "customers",
+      "net_sales"
+    ],
+    "expected_dimensions": [
+      "segment"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:rfm_segments",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "rfm",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-016",
+    "question": "请给出 RFM 客户分群及净销售贡献。（评测变体 4）",
+    "expected_intent": "rfm",
+    "expected_tools": [
+      "rfm_segments"
+    ],
+    "expected_metrics": [
+      "customers",
+      "net_sales"
+    ],
+    "expected_dimensions": [
+      "segment"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:rfm_segments",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "rfm",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-017",
+    "question": "请给出 RFM 客户分群及净销售贡献。（评测变体 5）",
+    "expected_intent": "rfm",
+    "expected_tools": [
+      "rfm_segments"
+    ],
+    "expected_metrics": [
+      "customers",
+      "net_sales"
+    ],
+    "expected_dimensions": [
+      "segment"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:rfm_segments",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "rfm",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-018",
+    "question": "请给出 RFM 客户分群及净销售贡献。（评测变体 6）",
+    "expected_intent": "rfm",
+    "expected_tools": [
+      "rfm_segments"
+    ],
+    "expected_metrics": [
+      "customers",
+      "net_sales"
+    ],
+    "expected_dimensions": [
+      "segment"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:rfm_segments",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "rfm",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-019",
+    "question": "请给出 RFM 客户分群及净销售贡献。（评测变体 7）",
+    "expected_intent": "rfm",
+    "expected_tools": [
+      "rfm_segments"
+    ],
+    "expected_metrics": [
+      "customers",
+      "net_sales"
+    ],
+    "expected_dimensions": [
+      "segment"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:rfm_segments",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "rfm",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-020",
+    "question": "请给出 RFM 客户分群及净销售贡献。（评测变体 8）",
+    "expected_intent": "rfm",
+    "expected_tools": [
+      "rfm_segments"
+    ],
+    "expected_metrics": [
+      "customers",
+      "net_sales"
+    ],
+    "expected_dimensions": [
+      "segment"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:rfm_segments",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "rfm",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-021",
+    "question": "请给出 RFM 客户分群及净销售贡献。（评测变体 9）",
+    "expected_intent": "rfm",
+    "expected_tools": [
+      "rfm_segments"
+    ],
+    "expected_metrics": [
+      "customers",
+      "net_sales"
+    ],
+    "expected_dimensions": [
+      "segment"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:rfm_segments",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "rfm",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-022",
+    "question": "请给出 RFM 客户分群及净销售贡献。（评测变体 10）",
+    "expected_intent": "rfm",
+    "expected_tools": [
+      "rfm_segments"
+    ],
+    "expected_metrics": [
+      "customers",
+      "net_sales"
+    ],
+    "expected_dimensions": [
+      "segment"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:rfm_segments",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "rfm",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-023",
+    "question": "查看客户月度 Cohort 留存，未成熟月份不要填零。",
+    "expected_intent": "cohort",
+    "expected_tools": [
+      "cohort_retention"
+    ],
+    "expected_metrics": [
+      "cohort_month",
+      "retention",
+      "rate"
+    ],
+    "expected_dimensions": [
+      "cohort_month"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:cohort_retention",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "cohort",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-024",
+    "question": "查看客户月度 Cohort 留存，未成熟月份不要填零。（评测变体 2）",
+    "expected_intent": "cohort",
+    "expected_tools": [
+      "cohort_retention"
+    ],
+    "expected_metrics": [
+      "cohort_month",
+      "retention",
+      "rate"
+    ],
+    "expected_dimensions": [
+      "cohort_month"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:cohort_retention",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "cohort",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-025",
+    "question": "查看客户月度 Cohort 留存，未成熟月份不要填零。（评测变体 3）",
+    "expected_intent": "cohort",
+    "expected_tools": [
+      "cohort_retention"
+    ],
+    "expected_metrics": [
+      "cohort_month",
+      "retention",
+      "rate"
+    ],
+    "expected_dimensions": [
+      "cohort_month"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:cohort_retention",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "cohort",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-026",
+    "question": "查看客户月度 Cohort 留存，未成熟月份不要填零。（评测变体 4）",
+    "expected_intent": "cohort",
+    "expected_tools": [
+      "cohort_retention"
+    ],
+    "expected_metrics": [
+      "cohort_month",
+      "retention",
+      "rate"
+    ],
+    "expected_dimensions": [
+      "cohort_month"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:cohort_retention",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "cohort",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-027",
+    "question": "查看客户月度 Cohort 留存，未成熟月份不要填零。（评测变体 5）",
+    "expected_intent": "cohort",
+    "expected_tools": [
+      "cohort_retention"
+    ],
+    "expected_metrics": [
+      "cohort_month",
+      "retention",
+      "rate"
+    ],
+    "expected_dimensions": [
+      "cohort_month"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:cohort_retention",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "cohort",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-028",
+    "question": "查看客户月度 Cohort 留存，未成熟月份不要填零。（评测变体 6）",
+    "expected_intent": "cohort",
+    "expected_tools": [
+      "cohort_retention"
+    ],
+    "expected_metrics": [
+      "cohort_month",
+      "retention",
+      "rate"
+    ],
+    "expected_dimensions": [
+      "cohort_month"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:cohort_retention",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "cohort",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-029",
+    "question": "查看客户月度 Cohort 留存，未成熟月份不要填零。（评测变体 7）",
+    "expected_intent": "cohort",
+    "expected_tools": [
+      "cohort_retention"
+    ],
+    "expected_metrics": [
+      "cohort_month",
+      "retention",
+      "rate"
+    ],
+    "expected_dimensions": [
+      "cohort_month"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:cohort_retention",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "cohort",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-030",
+    "question": "查看客户月度 Cohort 留存，未成熟月份不要填零。（评测变体 8）",
+    "expected_intent": "cohort",
+    "expected_tools": [
+      "cohort_retention"
+    ],
+    "expected_metrics": [
+      "cohort_month",
+      "retention",
+      "rate"
+    ],
+    "expected_dimensions": [
+      "cohort_month"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:cohort_retention",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "cohort",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-031",
+    "question": "查看客户月度 Cohort 留存，未成熟月份不要填零。（评测变体 9）",
+    "expected_intent": "cohort",
+    "expected_tools": [
+      "cohort_retention"
+    ],
+    "expected_metrics": [
+      "cohort_month",
+      "retention",
+      "rate"
+    ],
+    "expected_dimensions": [
+      "cohort_month"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:cohort_retention",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "cohort",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-032",
+    "question": "查看客户月度 Cohort 留存，未成熟月份不要填零。（评测变体 10）",
+    "expected_intent": "cohort",
+    "expected_tools": [
+      "cohort_retention"
+    ],
+    "expected_metrics": [
+      "cohort_month",
+      "retention",
+      "rate"
+    ],
+    "expected_dimensions": [
+      "cohort_month"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:cohort_retention",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "cohort",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-033",
+    "question": "分析最近 60 天 View 到 Purchase 的转化漏斗。",
+    "expected_intent": "funnel",
+    "expected_tools": [
+      "funnel_analysis"
+    ],
+    "expected_metrics": [
+      "view_sessions",
+      "add_to_cart_sessions",
+      "checkout_sessions",
+      "purchase_sessions"
+    ],
+    "expected_dimensions": [
+      "event_type"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:funnel_analysis",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "funnel",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-034",
+    "question": "分析最近 60 天 View 到 Purchase 的转化漏斗。（评测变体 2）",
+    "expected_intent": "funnel",
+    "expected_tools": [
+      "funnel_analysis"
+    ],
+    "expected_metrics": [
+      "view_sessions",
+      "add_to_cart_sessions",
+      "checkout_sessions",
+      "purchase_sessions"
+    ],
+    "expected_dimensions": [
+      "event_type"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:funnel_analysis",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "funnel",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-035",
+    "question": "分析最近 60 天 View 到 Purchase 的转化漏斗。（评测变体 3）",
+    "expected_intent": "funnel",
+    "expected_tools": [
+      "funnel_analysis"
+    ],
+    "expected_metrics": [
+      "view_sessions",
+      "add_to_cart_sessions",
+      "checkout_sessions",
+      "purchase_sessions"
+    ],
+    "expected_dimensions": [
+      "event_type"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:funnel_analysis",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "funnel",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-036",
+    "question": "分析最近 60 天 View 到 Purchase 的转化漏斗。（评测变体 4）",
+    "expected_intent": "funnel",
+    "expected_tools": [
+      "funnel_analysis"
+    ],
+    "expected_metrics": [
+      "view_sessions",
+      "add_to_cart_sessions",
+      "checkout_sessions",
+      "purchase_sessions"
+    ],
+    "expected_dimensions": [
+      "event_type"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:funnel_analysis",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "funnel",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-037",
+    "question": "分析最近 60 天 View 到 Purchase 的转化漏斗。（评测变体 5）",
+    "expected_intent": "funnel",
+    "expected_tools": [
+      "funnel_analysis"
+    ],
+    "expected_metrics": [
+      "view_sessions",
+      "add_to_cart_sessions",
+      "checkout_sessions",
+      "purchase_sessions"
+    ],
+    "expected_dimensions": [
+      "event_type"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:funnel_analysis",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "funnel",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-038",
+    "question": "分析最近 60 天 View 到 Purchase 的转化漏斗。（评测变体 6）",
+    "expected_intent": "funnel",
+    "expected_tools": [
+      "funnel_analysis"
+    ],
+    "expected_metrics": [
+      "view_sessions",
+      "add_to_cart_sessions",
+      "checkout_sessions",
+      "purchase_sessions"
+    ],
+    "expected_dimensions": [
+      "event_type"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:funnel_analysis",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "funnel",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-039",
+    "question": "分析最近 60 天 View 到 Purchase 的转化漏斗。（评测变体 7）",
+    "expected_intent": "funnel",
+    "expected_tools": [
+      "funnel_analysis"
+    ],
+    "expected_metrics": [
+      "view_sessions",
+      "add_to_cart_sessions",
+      "checkout_sessions",
+      "purchase_sessions"
+    ],
+    "expected_dimensions": [
+      "event_type"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:funnel_analysis",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "funnel",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-040",
+    "question": "分析最近 60 天 View 到 Purchase 的转化漏斗。（评测变体 8）",
+    "expected_intent": "funnel",
+    "expected_tools": [
+      "funnel_analysis"
+    ],
+    "expected_metrics": [
+      "view_sessions",
+      "add_to_cart_sessions",
+      "checkout_sessions",
+      "purchase_sessions"
+    ],
+    "expected_dimensions": [
+      "event_type"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:funnel_analysis",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "funnel",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-041",
+    "question": "分析最近 60 天 View 到 Purchase 的转化漏斗。（评测变体 9）",
+    "expected_intent": "funnel",
+    "expected_tools": [
+      "funnel_analysis"
+    ],
+    "expected_metrics": [
+      "view_sessions",
+      "add_to_cart_sessions",
+      "checkout_sessions",
+      "purchase_sessions"
+    ],
+    "expected_dimensions": [
+      "event_type"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:funnel_analysis",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "funnel",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-042",
+    "question": "分析最近 60 天 View 到 Purchase 的转化漏斗。（评测变体 10）",
+    "expected_intent": "funnel",
+    "expected_tools": [
+      "funnel_analysis"
+    ],
+    "expected_metrics": [
+      "view_sessions",
+      "add_to_cart_sessions",
+      "checkout_sessions",
+      "purchase_sessions"
+    ],
+    "expected_dimensions": [
+      "event_type"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:funnel_analysis",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "funnel",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-043",
+    "question": "为什么最近退款率异常？按地区、渠道和品类归因。",
+    "expected_intent": "attribution",
+    "expected_tools": [
+      "metric_trend",
+      "detect_anomalies",
+      "compare_dimension"
+    ],
+    "expected_metrics": [
+      "refund_rate"
+    ],
+    "expected_dimensions": [
+      "region",
+      "channel",
+      "category"
+    ],
+    "expected_direction": "increase_or_decrease",
+    "reference_sql": "reference_tool:compare_dimension",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "attribution",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-044",
+    "question": "为什么最近退款率异常？按地区、渠道和品类归因。（评测变体 2）",
+    "expected_intent": "attribution",
+    "expected_tools": [
+      "metric_trend",
+      "detect_anomalies",
+      "compare_dimension"
+    ],
+    "expected_metrics": [
+      "refund_rate"
+    ],
+    "expected_dimensions": [
+      "region",
+      "channel",
+      "category"
+    ],
+    "expected_direction": "increase_or_decrease",
+    "reference_sql": "reference_tool:compare_dimension",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "attribution",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-045",
+    "question": "为什么最近退款率异常？按地区、渠道和品类归因。（评测变体 3）",
+    "expected_intent": "attribution",
+    "expected_tools": [
+      "metric_trend",
+      "detect_anomalies",
+      "compare_dimension"
+    ],
+    "expected_metrics": [
+      "refund_rate"
+    ],
+    "expected_dimensions": [
+      "region",
+      "channel",
+      "category"
+    ],
+    "expected_direction": "increase_or_decrease",
+    "reference_sql": "reference_tool:compare_dimension",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "attribution",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-046",
+    "question": "为什么最近退款率异常？按地区、渠道和品类归因。（评测变体 4）",
+    "expected_intent": "attribution",
+    "expected_tools": [
+      "metric_trend",
+      "detect_anomalies",
+      "compare_dimension"
+    ],
+    "expected_metrics": [
+      "refund_rate"
+    ],
+    "expected_dimensions": [
+      "region",
+      "channel",
+      "category"
+    ],
+    "expected_direction": "increase_or_decrease",
+    "reference_sql": "reference_tool:compare_dimension",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "attribution",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-047",
+    "question": "为什么最近退款率异常？按地区、渠道和品类归因。（评测变体 5）",
+    "expected_intent": "attribution",
+    "expected_tools": [
+      "metric_trend",
+      "detect_anomalies",
+      "compare_dimension"
+    ],
+    "expected_metrics": [
+      "refund_rate"
+    ],
+    "expected_dimensions": [
+      "region",
+      "channel",
+      "category"
+    ],
+    "expected_direction": "increase_or_decrease",
+    "reference_sql": "reference_tool:compare_dimension",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "attribution",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-048",
+    "question": "为什么最近退款率异常？按地区、渠道和品类归因。（评测变体 6）",
+    "expected_intent": "attribution",
+    "expected_tools": [
+      "metric_trend",
+      "detect_anomalies",
+      "compare_dimension"
+    ],
+    "expected_metrics": [
+      "refund_rate"
+    ],
+    "expected_dimensions": [
+      "region",
+      "channel",
+      "category"
+    ],
+    "expected_direction": "increase_or_decrease",
+    "reference_sql": "reference_tool:compare_dimension",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "attribution",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-049",
+    "question": "为什么最近退款率异常？按地区、渠道和品类归因。（评测变体 7）",
+    "expected_intent": "attribution",
+    "expected_tools": [
+      "metric_trend",
+      "detect_anomalies",
+      "compare_dimension"
+    ],
+    "expected_metrics": [
+      "refund_rate"
+    ],
+    "expected_dimensions": [
+      "region",
+      "channel",
+      "category"
+    ],
+    "expected_direction": "increase_or_decrease",
+    "reference_sql": "reference_tool:compare_dimension",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "attribution",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-050",
+    "question": "为什么最近退款率异常？按地区、渠道和品类归因。（评测变体 8）",
+    "expected_intent": "attribution",
+    "expected_tools": [
+      "metric_trend",
+      "detect_anomalies",
+      "compare_dimension"
+    ],
+    "expected_metrics": [
+      "refund_rate"
+    ],
+    "expected_dimensions": [
+      "region",
+      "channel",
+      "category"
+    ],
+    "expected_direction": "increase_or_decrease",
+    "reference_sql": "reference_tool:compare_dimension",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "attribution",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-051",
+    "question": "为什么最近退款率异常？按地区、渠道和品类归因。（评测变体 9）",
+    "expected_intent": "attribution",
+    "expected_tools": [
+      "metric_trend",
+      "detect_anomalies",
+      "compare_dimension"
+    ],
+    "expected_metrics": [
+      "refund_rate"
+    ],
+    "expected_dimensions": [
+      "region",
+      "channel",
+      "category"
+    ],
+    "expected_direction": "increase_or_decrease",
+    "reference_sql": "reference_tool:compare_dimension",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "attribution",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-052",
+    "question": "为什么最近退款率异常？按地区、渠道和品类归因。（评测变体 10）",
+    "expected_intent": "attribution",
+    "expected_tools": [
+      "metric_trend",
+      "detect_anomalies",
+      "compare_dimension"
+    ],
+    "expected_metrics": [
+      "refund_rate"
+    ],
+    "expected_dimensions": [
+      "region",
+      "channel",
+      "category"
+    ],
+    "expected_direction": "increase_or_decrease",
+    "reference_sql": "reference_tool:compare_dimension",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "attribution",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-053",
+    "question": "为什么最近退款率异常？按地区、渠道和品类归因。（评测变体 11）",
+    "expected_intent": "attribution",
+    "expected_tools": [
+      "metric_trend",
+      "detect_anomalies",
+      "compare_dimension"
+    ],
+    "expected_metrics": [
+      "refund_rate"
+    ],
+    "expected_dimensions": [
+      "region",
+      "channel",
+      "category"
+    ],
+    "expected_direction": "increase_or_decrease",
+    "reference_sql": "reference_tool:compare_dimension",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "attribution",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-054",
+    "question": "为什么最近退款率异常？按地区、渠道和品类归因。（评测变体 12）",
+    "expected_intent": "attribution",
+    "expected_tools": [
+      "metric_trend",
+      "detect_anomalies",
+      "compare_dimension"
+    ],
+    "expected_metrics": [
+      "refund_rate"
+    ],
+    "expected_dimensions": [
+      "region",
+      "channel",
+      "category"
+    ],
+    "expected_direction": "increase_or_decrease",
+    "reference_sql": "reference_tool:compare_dimension",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "attribution",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-055",
+    "question": "为什么最近退款率异常？按地区、渠道和品类归因。（评测变体 13）",
+    "expected_intent": "attribution",
+    "expected_tools": [
+      "metric_trend",
+      "detect_anomalies",
+      "compare_dimension"
+    ],
+    "expected_metrics": [
+      "refund_rate"
+    ],
+    "expected_dimensions": [
+      "region",
+      "channel",
+      "category"
+    ],
+    "expected_direction": "increase_or_decrease",
+    "reference_sql": "reference_tool:compare_dimension",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "attribution",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-056",
+    "question": "为什么最近退款率异常？按地区、渠道和品类归因。（评测变体 14）",
+    "expected_intent": "attribution",
+    "expected_tools": [
+      "metric_trend",
+      "detect_anomalies",
+      "compare_dimension"
+    ],
+    "expected_metrics": [
+      "refund_rate"
+    ],
+    "expected_dimensions": [
+      "region",
+      "channel",
+      "category"
+    ],
+    "expected_direction": "increase_or_decrease",
+    "reference_sql": "reference_tool:compare_dimension",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "attribution",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-057",
+    "question": "为什么最近退款率异常？按地区、渠道和品类归因。（评测变体 15）",
+    "expected_intent": "attribution",
+    "expected_tools": [
+      "metric_trend",
+      "detect_anomalies",
+      "compare_dimension"
+    ],
+    "expected_metrics": [
+      "refund_rate"
+    ],
+    "expected_dimensions": [
+      "region",
+      "channel",
+      "category"
+    ],
+    "expected_direction": "increase_or_decrease",
+    "reference_sql": "reference_tool:compare_dimension",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "attribution",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-058",
+    "question": "为什么最近退款率异常？按地区、渠道和品类归因。（评测变体 16）",
+    "expected_intent": "attribution",
+    "expected_tools": [
+      "metric_trend",
+      "detect_anomalies",
+      "compare_dimension"
+    ],
+    "expected_metrics": [
+      "refund_rate"
+    ],
+    "expected_dimensions": [
+      "region",
+      "channel",
+      "category"
+    ],
+    "expected_direction": "increase_or_decrease",
+    "reference_sql": "reference_tool:compare_dimension",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "attribution",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-059",
+    "question": "为什么最近退款率异常？按地区、渠道和品类归因。（评测变体 17）",
+    "expected_intent": "attribution",
+    "expected_tools": [
+      "metric_trend",
+      "detect_anomalies",
+      "compare_dimension"
+    ],
+    "expected_metrics": [
+      "refund_rate"
+    ],
+    "expected_dimensions": [
+      "region",
+      "channel",
+      "category"
+    ],
+    "expected_direction": "increase_or_decrease",
+    "reference_sql": "reference_tool:compare_dimension",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "attribution",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-060",
+    "question": "为什么最近退款率异常？按地区、渠道和品类归因。（评测变体 18）",
+    "expected_intent": "attribution",
+    "expected_tools": [
+      "metric_trend",
+      "detect_anomalies",
+      "compare_dimension"
+    ],
+    "expected_metrics": [
+      "refund_rate"
+    ],
+    "expected_dimensions": [
+      "region",
+      "channel",
+      "category"
+    ],
+    "expected_direction": "increase_or_decrease",
+    "reference_sql": "reference_tool:compare_dimension",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "attribution",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-061",
+    "question": "生成本周经营周报并列出证据和限制。",
+    "expected_intent": "weekly_report",
+    "expected_tools": [
+      "weekly_report"
+    ],
+    "expected_metrics": [
+      "gmv",
+      "net_sales",
+      "refund_rate"
+    ],
+    "expected_dimensions": [
+      "period"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:weekly_report",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "weekly_report",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-062",
+    "question": "生成本周经营周报并列出证据和限制。（评测变体 2）",
+    "expected_intent": "weekly_report",
+    "expected_tools": [
+      "weekly_report"
+    ],
+    "expected_metrics": [
+      "gmv",
+      "net_sales",
+      "refund_rate"
+    ],
+    "expected_dimensions": [
+      "period"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:weekly_report",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "weekly_report",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-063",
+    "question": "生成本周经营周报并列出证据和限制。（评测变体 3）",
+    "expected_intent": "weekly_report",
+    "expected_tools": [
+      "weekly_report"
+    ],
+    "expected_metrics": [
+      "gmv",
+      "net_sales",
+      "refund_rate"
+    ],
+    "expected_dimensions": [
+      "period"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:weekly_report",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "weekly_report",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-064",
+    "question": "生成本周经营周报并列出证据和限制。（评测变体 4）",
+    "expected_intent": "weekly_report",
+    "expected_tools": [
+      "weekly_report"
+    ],
+    "expected_metrics": [
+      "gmv",
+      "net_sales",
+      "refund_rate"
+    ],
+    "expected_dimensions": [
+      "period"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:weekly_report",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "weekly_report",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-065",
+    "question": "生成本周经营周报并列出证据和限制。（评测变体 5）",
+    "expected_intent": "weekly_report",
+    "expected_tools": [
+      "weekly_report"
+    ],
+    "expected_metrics": [
+      "gmv",
+      "net_sales",
+      "refund_rate"
+    ],
+    "expected_dimensions": [
+      "period"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:weekly_report",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "weekly_report",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-066",
+    "question": "生成本周经营周报并列出证据和限制。（评测变体 6）",
+    "expected_intent": "weekly_report",
+    "expected_tools": [
+      "weekly_report"
+    ],
+    "expected_metrics": [
+      "gmv",
+      "net_sales",
+      "refund_rate"
+    ],
+    "expected_dimensions": [
+      "period"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:weekly_report",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "weekly_report",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-067",
+    "question": "哪些商品存在缺货或低库存风险？",
+    "expected_intent": "inventory",
+    "expected_tools": [
+      "inventory_alerts"
+    ],
+    "expected_metrics": [
+      "available",
+      "days_of_supply"
+    ],
+    "expected_dimensions": [
+      "product"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:inventory_alerts",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "inventory",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-068",
+    "question": "哪些商品存在缺货或低库存风险？（评测变体 2）",
+    "expected_intent": "inventory",
+    "expected_tools": [
+      "inventory_alerts"
+    ],
+    "expected_metrics": [
+      "available",
+      "days_of_supply"
+    ],
+    "expected_dimensions": [
+      "product"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:inventory_alerts",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "inventory",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-069",
+    "question": "哪些商品存在缺货或低库存风险？（评测变体 3）",
+    "expected_intent": "inventory",
+    "expected_tools": [
+      "inventory_alerts"
+    ],
+    "expected_metrics": [
+      "available",
+      "days_of_supply"
+    ],
+    "expected_dimensions": [
+      "product"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:inventory_alerts",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "inventory",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-070",
+    "question": "哪些商品关联度高、经常一起购买？给出支持度和提升度。",
+    "expected_intent": "association",
+    "expected_tools": [
+      "product_associations"
+    ],
+    "expected_metrics": [
+      "support",
+      "confidence",
+      "lift"
+    ],
+    "expected_dimensions": [
+      "product_pair"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:product_associations",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "association",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-071",
+    "question": "哪些商品关联度高、经常一起购买？给出支持度和提升度。（评测变体 2）",
+    "expected_intent": "association",
+    "expected_tools": [
+      "product_associations"
+    ],
+    "expected_metrics": [
+      "support",
+      "confidence",
+      "lift"
+    ],
+    "expected_dimensions": [
+      "product_pair"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:product_associations",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "association",
+      "deterministic",
+      "no-pii"
+    ]
+  },
+  {
+    "id": "p3-072",
+    "question": "哪些商品关联度高、经常一起购买？给出支持度和提升度。（评测变体 3）",
+    "expected_intent": "association",
+    "expected_tools": [
+      "product_associations"
+    ],
+    "expected_metrics": [
+      "support",
+      "confidence",
+      "lift"
+    ],
+    "expected_dimensions": [
+      "product_pair"
+    ],
+    "expected_direction": "any",
+    "reference_sql": "reference_tool:product_associations",
+    "expected_value_range": null,
+    "required_evidence": [
+      "database_result"
+    ],
+    "forbidden_claims": [
+      "已证明因果关系",
+      "虚构数据"
+    ],
+    "tags": [
+      "association",
+      "deterministic",
+      "no-pii"
+    ]
+  }
+]
+
