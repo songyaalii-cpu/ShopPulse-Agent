@@ -135,6 +135,4 @@ docs/                # 数据平台、Agent 和生产化设计文档
 - 归因结果表示数据相关性和贡献度，不代表已证明因果关系。
 - 项目使用合成电商数据，不包含真实客户信息。
 
-## 致谢与许可
 
-ShopPulse 核心业务系统是本人独立完成的个人项目。仓库同时保留了部分用于学习和回归参考的 LangChain [`langsmith-agent-lifecycle-workshop`](https://github.com/langchain-ai/langsmith-agent-lifecycle-workshop) 材料，相关内容按原许可要求保留。本仓库遵循 [Apache License 2.0](LICENSE)。
