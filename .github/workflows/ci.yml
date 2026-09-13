@@ -18,7 +18,7 @@ jobs:
         with:
           enable-cache: true
       - run: uv venv
-      - run: uv pip install -r requirements-prod.txt pytest pytest-asyncio fakeredis
+      - run: uv pip install -r requirements-prod.txt pytest pytest-asyncio fakeredis langchain-community
       - run: uv pip install --no-deps -e .
       - run: .venv/bin/pytest -q
 
