@@ -2,7 +2,7 @@
 
 ShopPulse 第三阶段把第二阶段的显式 LangGraph 工作流包装成完整应用。经营查询仍使用只读
 SQL 语义层；API 不在请求进程中长时间运行图，PostgreSQL 是历史事实来源，Redis 只承担队列、
-实时事件与短期缓存。本项目基于 Apache 2.0 的 LangSmith Agent Lifecycle Workshop 二次开发。
+实时事件与短期缓存。仓库中保留的 LangSmith Agent Lifecycle Workshop 参考材料遵循 Apache 2.0 许可。
 
 ## 架构与职责
 

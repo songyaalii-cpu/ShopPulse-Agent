@@ -4,6 +4,14 @@
 
 ShopPulse 是一个面向电商运营场景的全栈 Agent 应用。用户可以直接询问“为什么最近南区退款率上升？”或“生成本周经营周报”，系统会解析意图、调用可验证的分析工具、限制异常归因深度，最终返回带数据证据和可视化图表的结果。
 
+## 个人实现重点
+
+- 设计 PostgreSQL 电商数据模型、Alembic 迁移、可复现数据生成器和数据质量校验。
+- 实现 KPI、RFM、Cohort、行为漏斗、异常检测、多维归因、库存预警和商品关联分析。
+- 使用 LangGraph 编排可控分析流程，加入工具调用上限、下钻深度、证据校验和无模型降级。
+- 搭建 FastAPI + ARQ + Redis + SSE 的异步服务，实现幂等提交、任务重试、超时恢复和事件补发。
+- 完成 Next.js + ECharts 可视化界面，并建立 72 条样本的本地评测和自动化测试。
+
 ## 项目能解决什么
 
 - **KPI 趋势**：GMV、订单量、客单价、净销售额、毛利率、退款率和支付转化率。
@@ -127,6 +135,6 @@ docs/                # 数据平台、Agent 和生产化设计文档
 - 归因结果表示数据相关性和贡献度，不代表已证明因果关系。
 - 项目使用合成电商数据，不包含真实客户信息。
 
-## 开源来源
+## 致谢与许可
 
-本项目基于 LangChain 团队的 [`langsmith-agent-lifecycle-workshop`](https://github.com/langchain-ai/langsmith-agent-lifecycle-workshop) 进行二次开发。保留的 workshop 代码和学习材料用于回归参考；ShopPulse 新增了电商数据平台、确定性经营分析、LangGraph 归因工作流、完整 Web/API/Worker 应用和本地评测体系。项目继续遵循 [Apache License 2.0](LICENSE)。
+ShopPulse 核心业务系统是本人独立完成的个人项目。仓库同时保留了部分用于学习和回归参考的 LangChain [`langsmith-agent-lifecycle-workshop`](https://github.com/langchain-ai/langsmith-agent-lifecycle-workshop) 材料，相关内容按原许可要求保留。本仓库遵循 [Apache License 2.0](LICENSE)。
